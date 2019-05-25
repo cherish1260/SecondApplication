@@ -23,6 +23,13 @@
                 <action android:name="com.example.second.secondapplication.IMyAidlInterface"/>
             </intent-filter>
         </service>
+        <service android:name=".MessageService"
+            >
+            <intent-filter>
+                <action android:name="com.example.second.message"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
